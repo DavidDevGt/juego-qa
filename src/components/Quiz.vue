@@ -22,82 +22,86 @@ export default {
             preguntaActual: 0,
             preguntas: [
                         {
-                            title: '¿Qué significa HTML?',
-                            options: ['Lenguaje de Marcado de HiperTexto', 'Lenguaje de Marcado de Texto Avanzado', 'Lenguaje de Marcado de Tablas HiperTexto', 'Ninguna de las anteriores'],
-                            answer: 0
+                            pregunta: '¿Qué significa HTML?',
+                            opciones: ['Hyper Text Markup Language', 'Hyperlinks and Text Markup Language', 'Home Tool Markup Language'],
+                            respuestaCorrecta: 'Hyper Text Markup Language'
                         },
                         {
-                            title: '¿Qué elemento de HTML se utiliza para especificar el pie de página de un documento o sección?',
-                            options: ['<footer>', '<section>', '<bottom>', '<end>'],
-                            answer: 2
+                            pregunta: '¿Qué significa CSS?',
+                            opciones: ['Cascading Style Sheets', 'Computer Style Sheets', 'Creative Style Sheets'],
+                            respuestaCorrecta: 'Cascading Style Sheets'
                         },
                         {
-                            title: '¿Qué significa CSS?',
-                            options: ['Hojas de Estilo en Cascada', 'Estilos Creativos de Sistema', 'Hojas de Estilo Computacionales', 'Colores y Tamaños de Hoja'],
-                            answer: 0
+                            pregunta: '¿Cuál es el elemento de HTML que se utiliza para especificar el pie de página de un documento o sección?',
+                            opciones: ['<footer>', '<section>', '<bottom>', '<end>'],
+                            respuestaCorrecta: '<footer>'
                         },
                         {
-                            title: '¿Cuál es la etiqueta correcta para crear un enlace en HTML?',
-                            options: ['<link>', '<href>', '<a>', '<url>'],
-                            answer: 2
+                            pregunta: '¿Cuál es la etiqueta correcta para crear un enlace en HTML?',
+                            opciones: ['<link>', '<href>', '<a>', '<url>'],
+                            respuestaCorrecta: '<a>'
                         },
                         {
-                            title: '¿Cómo se llama el atributo de HTML que se utiliza para especificar la dirección de un enlace?',
-                            options: ['enlace', 'url', 'dirección', 'href'],
-                            answer: 3
+                            pregunta: '¿Cuál es la propiedad de CSS que se utiliza para cambiar el color del texto?',
+                            opciones: ['color', 'font-color', 'text-color', 'text-style'],
+                            respuestaCorrecta: 'color'
                         },
                         {
-                            title: '¿Cuál es la propiedad de CSS que se utiliza para cambiar el color del texto?',
-                            options: ['color', 'font-color', 'text-color', 'text-style'],
-                            answer: 0
+                            pregunta: '¿Qué propiedad de CSS se utiliza para establecer el espaciado entre las líneas de texto?',
+                            opciones: ['line-height', 'spacing', 'line-spacing', 'text-spacing'],
+                            respuestaCorrecta: 'line-height'
                         },
                         {
-                            title: '¿Qué propiedad de CSS se utiliza para establecer el espaciado entre las líneas de texto?',
-                            options: ['line-height', 'spacing', 'line-spacing', 'text-spacing'],
-                            answer: 0
+                            pregunta: '¿Cuál es el elemento de HTML que se utiliza para crear una lista numerada?',
+                            opciones: ['<list>', '<ul>', '<ol>', '<dl>'],
+                            respuestaCorrecta: '<ol>'
                         },
                         {
-                            title: '¿Cuál es el elemento de HTML que se utiliza para crear una lista numerada?',
-                            options: ['<list>', '<ul>', '<ol>', '<dl>'],
-                            answer: 2
+                            pregunta: '¿Cuál es la etiqueta de HTML utilizada para insertar una imagen en una página web?',
+                            opciones: ['<image>', '<img>', '<picture>', '<src>'],
+                            respuestaCorrecta: '<img>'
                         },
                         {
-                            title: '¿Cuál es la etiqueta de HTML utilizada para insertar una imagen en una página web?',
-                            options: ['<image>', '<img>', '<picture>', '<src>'],
-                            answer: 1
+                            pregunta: '¿Qué propiedad de CSS se utiliza para agregar sombra alrededor de un elemento?',
+                            opciones: ['shadow', 'box-shadow', 'element-shadow', 'style-shadow'],
+                            respuestaCorrecta: 'box-shadow'
                         },
                         {
-                            title: '¿Qué propiedad de CSS se utiliza para agregar sombra alrededor de un elemento?',
-                            options: ['shadow', 'box-shadow', 'element-shadow', 'style-shadow'],
-                            answer: 1
+                            pregunta: '¿Cuál es el elemento de HTML que se utiliza para agrupar elementos en una sección con estilos comunes?',
+                            opciones: ['<group>', '<div>', '<section>', '<block>'],
+                            respuestaCorrecta: '<div>'
                         },
                         {
-                            title: '¿Cuál es el elemento de HTML que se utiliza para agrupar elementos en una sección con estilos comunes?',
-                            options: ['<group>', '<div>', '<section>', '<block>'],
-                            answer: 1
+                            pregunta: '¿Qué propiedad de CSS se utiliza para cambiar el tamaño de fuente de un texto?',
+                            opciones: ['font-size', 'text-size', 'size', 'text-font'],
+                            respuestaCorrecta: 'font-size'
                         },
                         {
-                            title: '¿Qué propiedad de CSS se utiliza para cambiar el tamaño de fuente de un texto?',
-                            options: ['font-size', 'text-size', 'size', 'text-font'],
-                            answer: 0
+                            pregunta: '¿Cuál es la etiqueta correcta para crear un salto de línea en HTML?',
+                            opciones: ['<break>', '<nl>', '<br>', '<lb>'],
+                            respuestaCorrecta: '<br>'
                         },
                         {
-                            title: '¿Cuál es la etiqueta correcta para crear un salto de línea en HTML?',
-                            options: ['<break>', '<nl>', '<br>', '<lb>'],
-                            answer: 2
+                            pregunta: '¿Qué atributo de HTML se utiliza para establecer una imagen de fondo en un elemento?',
+                            opciones: ['background', 'img-background', 'bg-image', 'background-image'],
+                            respuestaCorrecta: 'background-image'
                         },
                         {
-                            title: '¿Qué atributo de HTML se utiliza para establecer una imagen de fondo en un elemento?',
-                            options: ['background', 'img-background', 'bg-image', 'background-image'],
-                            answer: 3
-                        },
-                        {
-                            title: '¿Cuál es la propiedad de CSS que se utiliza para alinear el texto a la derecha?',
-                            options: ['text-align', 'align', 'text-right', 'align-right'],
-                            answer: 0
+                            pregunta: '¿Cuál es la propiedad de CSS que se utiliza para alinear el texto a la derecha?',
+                            opciones: ['text-align', 'align', 'text-right', 'align-right'],
+                            respuestaCorrecta: 'text-align'
                         }
+
             ],
-            respuestas
+            respuestas: []
+        };
+    },
+    methods: {
+        responder(respuesta) {
+            this.respuestas[this.preguntaActual] = respuesta;
+        },
+        siguientePregunta() {
+            this.preguntaActual++;
         }
     }
 }
