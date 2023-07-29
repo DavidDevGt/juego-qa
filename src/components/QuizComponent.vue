@@ -1,6 +1,6 @@
 <template>
     <div>
-        <question
+        <question-component
             v-if="preguntas[preguntaActual]"
             :pregunta="preguntas[preguntaActual].pregunta"
             :opciones="preguntas[preguntaActual].opciones"
@@ -13,10 +13,10 @@
 
 
 <script>
-import Question from './Question.vue';
+import QuestionComponent from './QuestionComponent.vue';
 
 export default {
-    components:  {  Question },
+    components:  { QuestionComponent },
     data() {
         return {
             preguntaActual: 0,
